@@ -29,7 +29,7 @@ init();
 //document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>'
 
 
-document.querySelector('.btn-roll').addEventListener('click', function () {
+document.querySelector('.btn-roll').addEventListener('click', function () {  
     if (gamePlaying) {
         // 1. Numero aleatorio
         //Genera numeros aleatorios del 1 al 6
